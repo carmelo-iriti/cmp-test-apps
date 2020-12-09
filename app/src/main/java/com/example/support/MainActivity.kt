@@ -60,15 +60,6 @@ class MainActivity : AppCompatActivity() {
         buildGDPRConsentLib().run();
     }
 
-    /**
-    {
-    "accountId": 22,
-    "propertyId": 7639,
-    "propertyName": "tcfv2.mobile.webview",
-    "pmId": "122058"
-    }
-     */
-
     fun buildGDPRConsentLib(): GDPRConsentLib {
         return GDPRConsentLib
             .newBuilder(
