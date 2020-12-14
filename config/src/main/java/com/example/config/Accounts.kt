@@ -13,7 +13,7 @@ object Accounts{
         propertyName = "tcfv2.mobile.demo",
         pmId = "179657"
     )
-    val axelSpringer = Account(
+    val tonline = Account(
         accountId = 375,
         propertyId = 10722,
         propertyName = "android.app.t-online.de.news",

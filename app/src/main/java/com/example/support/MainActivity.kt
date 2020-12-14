@@ -63,10 +63,10 @@ class MainActivity : AppCompatActivity() {
     fun buildGDPRConsentLib(): GDPRConsentLib {
         return GDPRConsentLib
             .newBuilder(
-                Accounts.axelSpringer.accountId,
-                Accounts.axelSpringer.propertyName,
-                Accounts.axelSpringer.propertyId,
-                Accounts.axelSpringer.pmId,
+                Accounts.tonline.accountId,
+                Accounts.tonline.propertyName,
+                Accounts.tonline.propertyId,
+                Accounts.tonline.pmId,
                 applicationContext
             )
             .setOnConsentUIReady { view ->
